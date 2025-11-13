@@ -1,0 +1,37 @@
+let augend = 10;
+let addend = 20;
+let sum = augend + addend;
+
+function getRectangleArea(length, width) {
+  return length * width;
+}
+
+function getRandomInt(min, max) {
+  return Math.floor((Math.random() * (max - min)) + min);
+}
+
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+}
+
+function factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n-1);
+}
+
+const POSTS_PER_PAGE = 7;
+
+let currentPage = 5;
+
+function getSumOfArrayElements(arr) {
+  return reduce((sum, el) => sum + el, 0);
+}
+
+function multiply(a, b) {
+  return a * b;
+}
